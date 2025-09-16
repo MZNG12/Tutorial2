@@ -12,13 +12,13 @@
 let a = false; //set to true
 let b = true; //set to false
 let c = a && console.log("This will NOT print"); // returns false
-let d = b && console.log(); // returns undefined
+let d = b && console.log("This will print"); // returns undefined
 
 // OR short-circuit
 let f = true; //set to true
 let g = false; //set to false
 let h = true || console.log("This will NOT print"); // returns true
-let i = false || console.log(); // returns undefined
+let i = false || console.log("This will print"); // returns undefined
 
 //set t so that v contains "hello"
 //do not use true or false
